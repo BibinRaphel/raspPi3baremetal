@@ -59,3 +59,7 @@ kernel7.img: $(OBJS)
 
 clean:
 	rm -f *.o kernel7.elf kernel7.img
+	rm -f FreeRTOS-Kernel/*.o
+	rm -f FreeRTOS-Kernel/portable/GCC/ARM_CA9/*.o
+	rm -f FreeRTOS-Kernel/portable/MemMang/*.o
+
