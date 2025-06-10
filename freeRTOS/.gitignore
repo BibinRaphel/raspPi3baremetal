@@ -1,0 +1,10 @@
+# Object files
+*.o
+
+# Output binaries
+*.elf
+*.img
+
+# Backup/editor files
+*~
+*.swp
